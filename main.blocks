@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="{VE_bZtsgg}:ezxbV3bb">Player</variable><variable type="KIND_SpriteKind" id="6z|%`4S0S4++r^Kr]].^">Projectile</variable><variable type="KIND_SpriteKind" id="60l+!r=7RNLm$1?YDuI8">Food</variable><variable type="KIND_SpriteKind" id=",T@Of4OCiK[5^oZU61lY">Enemy</variable><variable id="RX4~v;~R79!pC[?.Jbfx">mySprite</variable><variable id="xGW*vmya.{X,BTPDux$B">picture</variable></variables><block type="pxt-on-start" id="gn%e)$H.=gv2!i?C@h$m" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="{bD?{,H=^,2/Wtci4u3q"><field name="VAR" id="RX4~v;~R79!pC[?.Jbfx">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="Qe*Sgf`;@3]%STXN8qIP"><value name="img"><shadow type="screen_image_picker" id="mB6ag4i@5%LwSi#bndIM"><field name="img">img`
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 f f 2 2 2 2 2 2 f f 2 2 2 
+2 2 2 f f 2 2 2 2 2 2 f f 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"mB6ag4i@5%LwSi#bndIM"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="|MdsJzrch`),lPocC/[j"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="Db5A#H-.^c2zc[rZo[09"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="G*,du^=z2vp*3un?0Etp"><field name="VAR" id="RX4~v;~R79!pC[?.Jbfx">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="v.L!KO{PJ(lxK@9+^v9e"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="W-{-s,Gx07PG|4y[76j_"><field name="speed">100</field></shadow></value><next><block type="gamesetbackgroundcolor" id="Hh?H6_rj`,_#mf+tmK)`"><value name="color"><shadow type="colorindexpicker" id="X||5[5{$?@BS4sq7E+5M"><field name="index">8</field></shadow></value></block></next></block></next></block></statement></block></xml>
